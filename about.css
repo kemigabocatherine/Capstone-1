@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  border: 0;
+  padding: 0;
+}
+
+html,
+body {
+  width: auto;
+  overflow-x: hidden;
+}
+
+/* Introduction */
+.section-1 {
+  background-image: url("images/about-bg.png");
+  background-repeat: no-repeat;
+  background-size: 170%;
+  padding-bottom: 5%;
+  background-color: #f0efef;
+  text-align: center;
+}
+
+nav {
+  display: flex;
+}
+
+.menu {
+  width: 12%;
+  height: 7%;
+  margin-left: 0;
+}
+
+.about {
+  padding-top: 5%;
+}
+
+.about-heading {
+  font-family: cocogoose, sans-serif;
+  width: 100%;
+  color: #ec5242;
+  font-size: 250%;
+  font-weight: 600;
+}
+
+.paragraph {
+  width: 90%;
+  height: 90%;
+  border: 2px solid #d8d6d6;
+  margin-left: 4%;
+  margin-right: 3%;
+  margin-top: 4%;
+  margin-bottom: 3%;
+  background-color: #fff;
+  border-radius: 3%;
+  padding: 2%;
+  font-family: lato, sans-serif;
+  font-weight: 300;
+  font-size: 105%;
+}
+
+.about-text {
+  font-family: lato, sans-serif;
+  color: #ec5242;
+  font-size: 130%;
+}
+
+.contact {
+  font-family: lato, sans-serif;
+}
+
+.about-logo {
+  text-align: center;
+}
+
+.logo-heading {
+  display: inline-flex;
+  color: #000;
+  font-family: cocogoose, sans-serif;
+  font-size: 150%;
+  font-weight: 120;
+  margin-bottom: 5%;
+  padding-top: 6%;
+  padding-bottom: 2%;
+  border-bottom: 2px solid #ec5242;
+}
+
+.logo-message {
+  font-family: lato, sans-serif;
+  font-size: 120%;
+}
+
+.logo {
+  width: 50%;
+}
+
+.logo-image {
+  border: 1px solid #f0efef;
+  width: 30%;
+  text-align: center;
+  padding: 3%;
+  margin-left: 35%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+/* past-events */
+.past-events {
+  border-top: 2px solid #f0efef;
+  padding: 5%;
+  text-align: center;
+}
+
+.events-heading {
+  font-family: lato, sans-serif;
+  font-weight: 900;
+  padding-bottom: 2%;
+}
+
+.event-message {
+  font-family: lato, sans-serif;
+  font-size: 120%;
+}
+
+.participant1 {
+  background-color: #ec5242;
+  width: 95%;
+  height: 20%;
+  margin-left: 3%;
+  margin-bottom: 3%;
+}
+
+.participant1 img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.participant2 {
+  background-color: #ec5242;
+  margin-left: 3%;
+  width: 95%;
+  height: 30%;
+}
+
+.participant2 img {
+  object-fit: cover;
+  opacity: 0.4;
+}
+
+.card-img-overlay {
+  margin-top: 20%;
+  font-family: lato, sans-serif;
+}
+
+/* footer */
+footer {
+  display: flex;
+  background-color: #353434;
+  padding: 4%;
+}
+
+.footer-logo {
+  width: 50%;
+}
+
+.footer-image {
+  border: 1px solid #979595;
+  background-color: #fff;
+  border-radius: 3%;
+  width: 30%;
+  text-align: center;
+  padding: 1%;
+  margin-left: 20%;
+  margin-top: 5%;
+  margin-bottom: 5%;
+}
+
+.info {
+  color: #fff;
+  font-family: lato, sans-serif;
+  font-size: 100%;
+  margin-left: 5%;
+  margin-top: 4%;
+}
+
+.sub {
+  margin-top: -9%;
+}
