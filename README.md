@@ -14,7 +14,7 @@ School of Community Leadership-First capstone project.
 
 ## Live demo
 
-[Cathy's-Portfolio](https://kemigabocatherine.github.io/Capstone-1/)
+[SCOL](https://kemigabocatherine.github.io/Capstone-1/)
 
 ## Author
 
