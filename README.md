@@ -24,7 +24,7 @@ GitHub:[@github](https://github.com/kemigabocatherine)
 
 Twitter: [@twitter](https://twitter.com/catherinek205)
 
-## Contributions
+## Contribution
 
 Any contributions and issues are welcome!
 
