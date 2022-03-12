@@ -13,10 +13,22 @@
 </head>
 <body>
   <div class="first-section">
+    <div class="toolbar">
+      <ul class="top-menu">
+        <li class="toolbar-item"><a href="#"><img src="images/facebook.png" alt=""></a></li>
+        <li class="toolbar-item"><a href="#"><img src="images/twitter.png" alt=""></a></li>
+        <li class="toolbar-item"><a href="#">English</a></li>
+        <li class="toolbar-item"><a href="#">My Page</a></li>
+        <li class="toolbar-item"><a href="#">Log out</a></li>
+      </ul>
+    </div>
     <header>
       <nav>
         <img src="images/mobile_menu.png" class="menu" id= "menu-mobile" alt="menu">
-        <img src="images/logo3.png" alt="logo" class="logo">
+        <div class="logos">
+          <img src="images/newest-logo.png" alt="logo" class="logo">
+          <img class="logo" src="images/name.png" alt="name">
+        </div>
         <div class="desktop-menu">
           <ul class="links">
             <li><a href="About.html">About</a></li>
@@ -24,9 +36,7 @@
             <li><a href="#leaders">Leaders</a></li>
             <li><a href="#partners">Partners</a></li>
           </ul>
-          <button class="signup" type="button">
-            Sign Up
-          </button>
+          <button class="signup">Register</button>
         </div>
          <!-- Mobile-menu -->
         <div id="mobile-menu">
@@ -69,66 +79,39 @@
         Main Program
       </h3>
     </div>
+    <hr>
     <section class="program-list">
       <div class="programs">
-        <div>
-          <img class="mt-4" src="images/self-leadership.png" alt="self">
-        </div>
-        <div class="program-body">
-          <div class="program-title">
-            <h4 class="card-title">Self-leadership</h4>
-          </div>
-          <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
+        <img  src="images/self-leadership.png" alt="self">
+        <h5 class="card-title">Self-leadership</h5>        
+        <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </div>
       <div class="programs">
-        <div>
-          <img class="mt-4" src="images/servant-leadership.png" alt="servant">
-        </div>
-        <div class="program-body">
-          <div class="program-title">
-            <h4 class="card-title">Servant leadership</h4>
-          </div>
-          <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
+        <img src="images/servant-leadership.png" alt="servant">
+        <h5 class="card-title">Servant leadership</h5>
+        <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </div>
       <div class="programs">
-        <div>
-          <img class="mt-4" src="images/program-icon-03.png" alt="teams">
-        </div>
-        <div class="program-body">
-          <div class="program-title">
-            <h4 class="card-title">Team leadership</h4>
-          </div>
-          <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
+        <img class="image-3" src="images/program-icon-03.png" alt="teams">
+        <h5 class="card-title">Team leadership</h5>
+        <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </div>
       <div class="programs">
-        <div>
-          <img class="mt-4" src="images/program-icon-04.png" alt="community">
-        </div>
-        <div class="program-body">
-          <div class="program-title">
-            <h4 class="card-title">Organisation change</h4>
-          </div>
-          <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
+        <img src="images/program-icon-04.png" alt="community">
+          <h5 class="card-title">Society leadership</h5>
+        <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </div>
       <div class="programs">
-        <div>
-          <img class="mt-3" src="images/program-icon-05.png" alt="transformation">
-        </div>
-        <div class="program-body">
-          <div class="program-title">
-            <h4 class="card-title">Transform project</h4>
-          </div>
-          <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
-        </div>
+        <img src="images/program-icon-05.png" alt="transformation">
+        <h5 class="card-title">Transform project</h5>
+        <p class="program-text">Lorem ipsum dolor sit amet consectetur adipisicing.</p>
       </div>      
     </section>
-    <button class="all-programs" type="button">
-        See All Programs
-      </button>
+    <div class="program-container">
+      <p class="full-program">
+      SEE ALL PROGRAMS
+      </p>
+    </div>
   </section>
 
   <!--Leaders-->
@@ -137,25 +120,21 @@
 
   <!--Partners-->
   <section class="partners" id="partners">
-    <h4 class="partner-heading">
-      Partners
-    </h4>
-    <div class="partner-block ms-5">
-      <div class="part1">
-        <div>
-          <img class="partner1" src="images/power.png" alt="">
-        </div>
-        <div>
-          <img class="partner2" src="images/Hope.png" alt="">
-        </div>
+    <div class="partner-heading">
+      <h4>
+      Partner
+      </h4>
+    </div>
+    <hr>
+    <div class="partner-block">
+      <div>
+        <img class="partner1" src="images/partner-logo.png" alt="Power">
       </div>
-      <div class="part2">
-        <div>
-          <img class="partner3" src="images/futuristic.png" alt="futuristic">
-        </div>
-        <div>
-          <img class="partner4" src="images/socl-observer.png" alt="observer">
-        </div>
+      <div>
+        <img class="partner2" src="images/hopeM.png" alt="Hope">
+      </div>
+      <div>
+        <img class="partner3" src="images/Media.png" alt="futuristic">
       </div>
     </div>
   </section>
