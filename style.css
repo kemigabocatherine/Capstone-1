@@ -120,10 +120,6 @@ li {
   justify-content: space-around;
   background-color: #ffffff17;
   width: 96%;
-  /* padding-top: 2%;
-  padding-left: 1%;
-  padding-right: 1%;
-  padding-bottom: 2%; */
   margin-bottom: 2%;
   margin-left: 2%;
 }
@@ -142,8 +138,6 @@ li {
 .program-text {
   color: #fff;
   width: 60%;
-  /* margin-left: 95px;
-  padding-left: 2px; */
   font-family: "lato", sans-serif;
   font-size: 16px;
 }
