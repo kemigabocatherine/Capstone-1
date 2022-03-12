@@ -43,6 +43,10 @@ const node = document.createTextNode('Main Leaders');
 leadHeading.appendChild(node);
 leaderBlock.parentNode.insertBefore(leadHeading, leaderBlock);
 
+const horizontal = document.createElement('hr');
+horizontal.classList.add('leader-hr');
+leaderBlock.parentNode.insertBefore(horizontal, leaderBlock);
+
 leadMembers.forEach((member, index) => {
   const leadMember = document.createElement('div');
   leadMember.setAttribute('class', 'lead-member');
@@ -59,6 +63,7 @@ leadMembers.forEach((member, index) => {
               ${leadMembers[index].name}
             </h5>
             <p class="card-subtitle">${leadMembers[index].description}</p>
+            ${leadMembers[index].line}
             <p class="duty">${leadMembers[index].about}</p>
           </div>
         </div>
