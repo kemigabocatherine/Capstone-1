@@ -13,22 +13,32 @@
 </head>
 <body>
   <div class="section-1">
+    <div class="toolbar">
+      <ul class="top-menu">
+        <li class="toolbar-item"><a href="#"><img src="images/facebook.png" alt=""></a></li>
+        <li class="toolbar-item"><a href="#"><img src="images/twitter.png" alt=""></a></li>
+        <li class="toolbar-item"><a href="#">English</a></li>
+        <li class="toolbar-item"><a href="#">My Page</a></li>
+        <li class="toolbar-item"><a href="#">Log out</a></li>
+      </ul>
+    </div>
     <header>
       <nav>
         <img src="images/mobile_menu.png" class="menu" id= "about-mobile" alt="menu">
         <div class="desktop-menu ">
-          <img src="images/logo3.png" alt="logo" class="logo">
+          <div class="logos">
+            <img src="images/newest-logo.png" alt="logo" class="logo">
+            <img src="images/name.png" alt="name">
+          </div>
           <ul class="links">
             <li><a href="index.html" target="_blank">Home</a></li>
             <li><a href="#logo">Logo</a></li>
             <li><a href="#events">Events</a></li>
             <li><a href="#footer">Footer</a></li>
           </ul>
-          <div class="button-signup">
-            <button class="signup">
+          <button class="signup">
             Sign Up
-            </button>
-          </div>
+          </button>
         </div>
         <!-- Mobile-menu -->
         <div id="about-menu">
@@ -68,13 +78,14 @@
   <!--Logo-->
   <section class="about-logo" id="logo">
     <h2 class="logo-heading">
-      SOCL 
+      School Of Community Leadership
     </h2>
+    <hr>
     <p class="logo-message">
       Equipping leaders to be agents of positive transformation!
     </p>
     <div class="logo-image">
-      <img class="logo" src="images/logo3.png" alt="logo">
+      <img src="images/newest-logo.png" alt="logo" class="logo">
     </div>
   </section>
   
@@ -83,6 +94,7 @@
     <h3 class="events-heading">
       See the past participants message
     </h3>
+    <hr>
     <p class="event-message">
       Lorem ipsum dolor sit amet consectetur, adipisicing elit. Earum delectus necessitatibus quo!
     </p>
@@ -103,13 +115,36 @@
       </div>
     </div>
   </section>
+
+  <!--Partners-->
+  <section class="partners" id="partners">
+    <div class="partner-heading">
+      <h4>
+      Partner
+      </h4>
+    </div>
+    <hr>
+    <div class="partner-block">
+      <div>
+        <img class="partner1" src="images/partner-logo.png" alt="Power">
+      </div>
+      <div>
+        <img class="partner2" src="images/hopeM.png" alt="Hope">
+      </div>
+      <div>
+        <img class="partner3" src="images/Media.png" alt="futuristic">
+      </div>
+    </div>
+  </section>
+
   <footer id="footer">
     <div class="footer-image">
-      <img class="footer-logo" src="images/logo3.png" alt="logo">
+      <img src="images/newest-logo.png" alt="logo" class="logo2">
     </div>
+    <img src="images/logo3.png" alt="logo" class="logo1">
     <div class="info">
       <p>@socl School of Community Leadership</p>
-      <p class="sub"><sub>Some rights are reserved</sub></p>
+      <p class="rights">Some rights are reserved</p>
     </div>
   </footer>
   <script src="about.js"></script>
